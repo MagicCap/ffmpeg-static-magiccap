@@ -1,19 +1,19 @@
 # ffmpeg-static-magiccap
 
-**[ffmpeg](https://ffmpeg.org) static binaries for Mac OSX and Linux and Windows.**
+**[ffmpeg](https://ffmpeg.org) static binaries for Mac OSX and Linux.**
 
 Supports macOS (64-bit) and Linux (64-bit). The current ffmpeg version is `4.1`.
 
 *Note:* The version of `ffmpeg-static` follows [SemVer](http://semver.org). When releasing new versions, **we do *not* consider breaking changes in `ffmpeg` itself**, but only the JS interface (see below). To stop `ffmpeg-static` from breaking your code by getting updated, [lock the version down](https://docs.npmjs.com/files/package.json#dependencies) or use a [lockfile](https://docs.npmjs.com/files/package-lock.json).
 
-[![build status](https://travis-ci.org/eugeneware/ffmpeg-static.svg?branch=master)](http://travis-ci.org/eugeneware/ffmpeg-static)
+[![build status](https://travis-ci.org/MagicCap/ffmpeg-static-magiccap.svg?branch=master)](https://travis-ci.org/MagicCap/ffmpeg-static-magiccap)
 
 ## Installation
 
 This module is installed via npm:
 
 ``` bash
-$ npm install ffmpeg-static
+$ npm install ffmpeg-static-magiccap
 ```
 
 ## Example Usage
@@ -21,7 +21,7 @@ $ npm install ffmpeg-static
 Returns the path of a statically linked ffmpeg binary on the local filesystem.
 
 ``` js
-var ffmpeg = require('ffmpeg-static');
+var ffmpeg = require('ffmpeg-static-magiccap');
 console.log(ffmpeg.path);
 // /Users/eugeneware/Dropbox/work/ffmpeg-static/bin/darwin/x64/ffmpeg
 ```

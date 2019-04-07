@@ -1,7 +1,7 @@
 {
-  "name": "ffmpeg-static",
+  "name": "ffmpeg-static-magiccap",
   "version": "2.4.0",
-  "description": "ffmpeg static binaries for Mac OSX and Linux and Windows",
+  "description": "ffmpeg static binaries for Mac OSX and Linux",
   "main": "index.js",
   "files": [
     "index.js",

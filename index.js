@@ -2,7 +2,7 @@ var os = require('os')
 var path = require('path')
 
 var platform = os.platform()
-if (platform !== 'linux' && platform !== 'darwin' && platform !== 'win32') {
+if (platform !== 'linux' && platform !== 'darwin') {
   console.error('Unsupported platform.')
   process.exit(1)
 }
@@ -18,7 +18,7 @@ var ffmpegPath = path.join(
   'bin',
   platform,
   arch,
-  platform === 'win32' ? 'ffmpeg.exe' : 'ffmpeg'
+  'ffmpeg'
 )
 
 exports.path = ffmpegPath;

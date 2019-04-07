@@ -23,8 +23,7 @@
     "binary",
     "binaries",
     "mac",
-    "linux",
-    "windows"
+    "linux"
   ],
   "author": "Eugene Ware <eugene@noblesamurai.com>",
   "contributors": [
